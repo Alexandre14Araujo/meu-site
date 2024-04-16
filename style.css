@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-color: #d4f7b8fd;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.container-e{
+	align-items: center;
+	margin-left: center;
+	text-align: center;
+}
+
+.container-f{
+	margin-right: 220px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header{
+	background-color: #0b31a7;
+	width: 100%;
+	padding: 10px;
+}
+
+.logo,.sociais{
+	width: 25%;
+}
+
+.logo img{
+	width: 80px;
+}
+
+.menu{
+	width: 50%;
+}
+
+.menu nav a{
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 60px;
+	font-size: 18px;
+	position: relative;
+}
+
+.menu nav a::after{
+	content: " ";
+	width: 0px;
+	height: 4px;
+	background-image: linear-gradient(45deg, #FF2500, #FF7100);
+	position: absolute;
+	top: 30px;
+	left: 0;
+	transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+	width: 50px;
+}
+
+.sociais button{
+	width: 40px;
+	height: 40px;
+	background-image: linear-gradient(45deg, #FF2500, #FF7100);
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.sociais button i{
+	font-size: 20px;
+	color: #ffffff;
+	
+}
+
+.container-a{
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+.container-b{
+	margin-left: 800px;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-b p{
+	float: left;
+}
+
+.container-c{
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.container-d{
+	margin-left: 250px;
+}
+
+.container-d{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-left: 350px;
+	text-align: center;
+}
+
+.texto-a, .texto-c{
+	display: table-cell;
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+
+.textoh3{
+	text-align:center;
+}
+
+.texto-d{
+	display: table-cell;
+	float: left;
+}
+
+.tour{
+	margin-left: 70px;	
+}
+
+.texto-e{
+	margin-right: 70px;
+	text-align: justify;
+}
+
+.texto-eventos{
+	text-align: center;
+	
+}
+
+.faleconosco{
+	margin-left: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eventos{
+	text-align: center;
+	
+}
