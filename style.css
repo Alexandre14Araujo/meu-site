@@ -12,7 +12,7 @@
 }
 
 body{
-	background-color: #d4f7b8fd;
+	background-color: #e1f7cefd;
 }
 
 .container{
@@ -20,14 +20,43 @@ body{
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	justify-content: center;	
+}
+
+.container-a{
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.container-b{
+	margin-left: 400px;
+	align-items: center;
 	justify-content: center;
-	
+	display: flex;
+}
+
+.container-c{
+	margin-right: 1250px;
+	display: flex;
+	align-items: center;
+}
+
+.container-d{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 450px;
 }
 
 .container-e{
 	align-items: center;
-	margin-left: center;
+	margin-left: 100px;
 	text-align: center;
+}
+
+.container-e img{
+	margin: auto;
 }
 
 .container-f{
@@ -38,18 +67,9 @@ body{
 	justify-content: center;
 }
 
-header{
-	background-color: #0b31a7;
-	width: 100%;
-	padding: 10px;
-}
-
-.logo,.sociais{
-	width: 25%;
-}
-
-.logo img{
-	width: 80px;
+.container-f img{
+	width: 550px;
+	margin-right: 1150px;
 }
 
 .menu{
@@ -79,6 +99,15 @@ header{
 	width: 50px;
 }
 
+.logo,.sociais{
+	width: 25%;
+}
+
+.logo img{
+	width: 80px;
+	margin-left: auto;
+}
+
 .sociais button{
 	width: 40px;
 	height: 40px;
@@ -92,44 +121,6 @@ header{
 .sociais button i{
 	font-size: 20px;
 	color: #ffffff;
-	
-}
-
-.container-a{
-	margin-left: 50px;
-	display: flex;
-	align-items: center;
-	
-	
-}
-
-.container-b{
-	margin-left: 800px;
-	align-items: center;
-	justify-content: center;
-}
-
-.text-b p{
-	float: left;
-}
-
-.container-c{
-	margin-left: 50px;
-	display: flex;
-	align-items: center;
-	
-}
-
-.container-d{
-	margin-left: 250px;
-}
-
-.container-d{
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	margin-left: 350px;
-	text-align: center;
 }
 
 .texto-a, .texto-c{
@@ -139,37 +130,67 @@ header{
 	text-align: center;
 }
 
+.text-b p{
+	text-align: left;
+}
+
+.texto-d{
+	text-align: left;
+	margin-right: 60px;
+}	
+
+.texto-e{
+	margin-left: 70px;
+	text-align: center;
+}
+
+.texto-h{
+	text-align: right;
+	text-align-last: center;
+}
+
 .textoh3{
 	text-align:center;
 }
 
-.texto-d{
-	display: table-cell;
-	float: left;
+.texto-eventos{
+	text-align: center;
+}
+
+.castelo, img{
+	text-align: center;
+	margin-left: 570px;
+}
+
+header{
+	background-color: #0b31a7;
+	width: 107%;
+	padding: 10px;
+}
+
+.titulo{
+	text-align: left;
 }
 
 .tour{
 	margin-left: 70px;	
 }
 
-.texto-e{
-	margin-right: 70px;
-	text-align: justify;
-}
-
-.texto-eventos{
-	text-align: center;
-	
-}
-
-.faleconosco{
-	margin-left: 100px;
+.faleconosco img{
+	width: 450px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	margin-left: 720px;
 }
 
 .eventos{
 	text-align: center;
-	
+}
+
+.tour{
+	text-align: center;
+}
+
+.Teste{
+	margin-left: 50%;
 }
