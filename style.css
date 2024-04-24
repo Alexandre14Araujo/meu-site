@@ -73,7 +73,7 @@ body{
 }
 
 .menu{
-	width: 50%;
+	width: 70%;
 }
 
 .menu nav a{
@@ -105,7 +105,7 @@ body{
 
 .logo img{
 	width: 80px;
-	margin-left: auto;
+	margin-left: 0px;
 }
 
 .sociais button{
@@ -193,4 +193,8 @@ header{
 
 .Teste{
 	margin-left: 50%;
+}
+
+.formulario, .cadastro{
+	margin-left: 20px;
 }
